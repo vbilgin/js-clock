@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.clock__title {
+  font-weight: normal;
+}
+
+.clock__time {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
